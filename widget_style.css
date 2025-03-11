@@ -1,0 +1,43 @@
+#suggestion_widget {
+    width: fit-content;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 1;
+    opacity: 100%;
+
+}
+#suggestion_results {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#suggestion_results ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+.suggestion_result {
+
+    display: flex;
+    align-items: flex-start;
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #0000005d;
+    cursor: pointer;
+    padding: 10px;
+    list-style-type: none;
+    text-align: justify;
+}
+.suggestion_result:last-child {
+    border-bottom: none;
+}
+.suggestion_result:hover {
+    background-color: #e0e0e0;
+}
+
+.pin {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
