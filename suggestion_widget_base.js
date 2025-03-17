@@ -38,7 +38,7 @@ export function listItemCreate(placePrediction, token, argMap) {
                 's': argMap.s,
                 'url': document.URL,
             };
-            const placeComponents = await fetch('http://fertilizerapi.com/api/place_details/?' + new URLSearchParams(request).toString(),
+            const placeComponents = await fetch('https://fertilizerapi.com/api/place_details/?' + new URLSearchParams(request).toString(),
                 {
                     method: 'GET',
                 
