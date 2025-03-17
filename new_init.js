@@ -62,7 +62,7 @@ export async function onLoadAPI(argMap) {
             clearTimeout(debounceTimeout);
             debounceTimeout = setTimeout(async () => {
               if (inputElement.value !== '') {
-              const to_fetch = 'http://fertilizerapi.com/api/place_suggestions/?' + new URLSearchParams(request).toString();
+              const to_fetch = 'https://fertilizerapi.com/api/place_suggestions/?' + new URLSearchParams(request).toString();
               console.log(to_fetch);
               const { suggestions } = await fetch(to_fetch, 
                 {
