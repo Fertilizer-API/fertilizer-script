@@ -55,7 +55,7 @@ export async function onLoadAPI(argMap) {
             const style = document.createElement('link');
             style.setAttribute('id', 'suggestion_widget_style');
             style.setAttribute('rel', 'stylesheet');
-            style.setAttribute('href', './widget_style.css');
+            style.setAttribute('href', 'https://cdn.jsdelivr.net/gh/Fertilizer-API/fertilizer-script@latest/widget_style.css');
             document.head.appendChild(style);
 
          
