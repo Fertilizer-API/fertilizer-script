@@ -51,7 +51,7 @@ export function listItemCreate(placePrediction, token, argMap) {
             
         })}, dbTimeoutDuration);
     const pin = document.createElement('img');
-    pin.setAttribute('src', './pin.svg');
+    pin.setAttribute('src', 'https://cdn.jsdelivr.net/gh/Fertilizer-API/fertilizer-script@1.1/pin.svg');
     pin.setAttribute('alt', 'Pin');
     pin.setAttribute('class', 'pin');
     listItem.appendChild(pin);
